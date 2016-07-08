@@ -1,0 +1,30 @@
+
+#article1 {
+ background: red;
+ font-family: monospace;
+ border-radius: 2px;
+}
+
+#article2 {
+  background: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: green;
+  line-height: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#article3 {
+  background: blue;
+  font-family: serif;
+  font-size: 2px;
+  color: red;
+  line-height: 10px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+article {
+    border: 2px solid black;
+}

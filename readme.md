@@ -1,3 +1,19 @@
+>You can find my submissions here:
+- The Static Web:
+  - [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
+  - [Challenges] (https://github.com/Daynewr/)
+- Single Page Applications:
+  - [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
+  - [Challenges] (https://github.com/Daynewr/)
+- Modern Javascript Developer:
+  - [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
+  - [Challenges] (https://github.com/Daynewr/)
+- Rich Browser Applications:
+  - [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
+  - [Challenges] (https://github.com/Daynewr/)
+
+<hr>
+
 # Mastery Learning
 
 Welcome to an experiment in education. Learning software development isn't ike learning anything else , so we're not going to treat it like anything else. This is likely going to be a very different experience from your high school chemistry class, or your college intro to philosophy.

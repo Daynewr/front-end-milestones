@@ -1,6 +1,6 @@
 >You can find my submissions here:
-  - The Static Web
-  [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
+  - The Static Web:
+    - [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
 
 <hr>
 

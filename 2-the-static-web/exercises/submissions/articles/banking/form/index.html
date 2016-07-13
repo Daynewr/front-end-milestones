@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Banking Validation</title>
+        <link rel="stylesheet" href="validation.css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+
+        <form class="form" action="index.html" method="post">
+            <fieldset class="name">
+                <input type="text" name="firstname" placeholder="First Name">
+                <input type="text" name="middleinitial" maxlength="1" placeholder="Middle Initial">
+                <input type="text" name="lastname" placeholder="Last Name">
+            </fieldset>
+            <fieldset class="address">
+                <input type="text" name="street" placeholder="Street Address">
+                <input type="text" name="city" placeholder="City">
+                <input type="text" name="state" placeholder="State">
+                <input type="text" name="zip" placeholder="Zipcode">
+            </fieldset>
+            <fieldset class="info">
+                <input type="text" name="occupation" placeholder="Occupation">
+                <input type="text" name="employer" placeholder="Employer">
+                <select name="loan">
+                  <option selected disabled>Choose Loan Type:</option>
+                  <option value="commercial">Commercial</option>
+                  <option value="real-estate">Real estate</option>
+                  <option value="personal">Personal</option>
+                  <option value="mortgage">Mortgage</option>
+                </select>
+                <input type="number" name="amount" placeholder="Loan Amount" min="1000" max="1000000000">
+                <label>
+                  <input type="radio" name="year">5 Year
+                </label>
+                <input type="radio" name="loan-length">
+                <input type="radio" name="loan-length">
+            </fieldset>
+            <input type="button" name="name" value="">
+            <input type="button" name="name" value="">
+            <input type="button" name="name" value="">
+            <input type="button" name="name" value="">
+            <input type="button" name="name" value="">
+            <input type="button" name="name" value="">
+
+        </form>
+    </body>
+</html>

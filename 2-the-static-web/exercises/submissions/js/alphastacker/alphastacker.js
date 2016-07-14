@@ -8,7 +8,6 @@ let stackLetter = function(letters){
 	});
 
 	let letterString = letters.join('');
-	let answer;
 
 	for(let i = letters.length; i >= 0; i--){
 		console.log(letterString.slice(0,-i));

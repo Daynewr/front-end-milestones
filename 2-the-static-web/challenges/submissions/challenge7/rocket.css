@@ -1,17 +1,150 @@
 /* FRAME/BACKGROUND */
 
-body {
-
+.star {
+  position: absolute;
 }
 
 .sky {
   background: #2f4f4f;
   width: 590px;
-  height: 959px;
+  height: 965px;
   margin: 0 auto;
 }
 
+span {
+  position: relative;
+}
 /* STAR */
+
+.star span {
+  position: absolute;
+  margin-top: -75px;
+}
+
+@keyframes moveStar {
+    0% {
+        transform: translateY(-40px) scale(.2);
+    }
+    100% {
+        transform: translateY(970px) scale(.2);
+    }
+}
+
+.star span:first-of-type {
+  margin-left: 54px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 4s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(2){
+  margin-left: 154px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 0.5s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(3){
+  margin-left: 432px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(4){
+  margin-left: 21px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 1.5s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(5){
+  margin-left: 76px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 7s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(6){
+  margin-left: 4px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 5.5s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(7){
+  margin-left: 45px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(8){
+  margin-left: 400px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 3s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(9){
+  margin-left: 275px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 4s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(9){
+  margin-left: 475px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: .01s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(10){
+  margin-left: 400px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 7s;
+  animation-iteration-count:infinite;
+}
+.star span:nth-of-type(11){
+  margin-left: 200px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count:infinite;
+}
+
+.star span:nth-of-type(12){
+  margin-left: 220px;
+  animation-name: moveStar;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 4s;
+  animation-iteration-count:infinite;
+}
 
 .star-five {
    margin: 50px 0;
@@ -23,10 +156,10 @@ body {
    border-right:  100px solid transparent;
    border-bottom: 70px  solid #fffafa;
    border-left:   100px solid transparent;
-   -moz-transform:    rotate(35deg);
-   -webkit-transform: rotate(35deg);
-   -ms-transform:     rotate(35deg);
-   -o-transform:      rotate(35deg);
+   -moz-transform:    rotate(3deg) scale(.2);
+   -webkit-transform: rotate(3deg) scale(.2);
+   -ms-transform:     rotate(3deg) scale(.2);
+   -o-transform:      rotate(3deg) scale(.2);
 }
 .star-five:before {
    border-bottom: 80px solid #fffafa;
@@ -66,8 +199,10 @@ body {
 /* ROCKET */
 
 .rocket {
-  margin-left: 75px;
-  margin-top: 50px;
+  margin-left: 140px;
+  margin-top: 312px;
+  display: inline-block;
+  position: absolute;
 }
 
 #trapezium {
@@ -90,13 +225,13 @@ body {
 }
 
 .triangle_down {
-  width: 0;
-  height: 0;
-  border-top: 35px solid #ffa500;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  display: inline-block;
-  margin-left: 54px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid #ffa500;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    display: inline-block;
+    margin-left: 54px;
 }
 
 .rocket-bottom {

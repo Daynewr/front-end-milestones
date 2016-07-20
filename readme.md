@@ -2,17 +2,17 @@
 
 >You can find my submissions here:
 - The Static Web:
-  - [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
-  - [Challenges] (https://github.com/Daynewr/)
+  - [Exercises](https://github.com/daynewright/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
+  - [Challenges] (https://github.com/daynewright/front-end-milestones/tree/master/2-the-static-web/challenges/submissions)
 - Single Page Applications:
-  - [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
-  - [Challenges] (https://github.com/Daynewr/)
+  - [Exercises](https://github.com/daynewright/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
+  - [Challenges] (https://github.com/daynewright/)
 - Modern Javascript Developer:
-  - [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
-  - [Challenges] (https://github.com/Daynewr/)
+  - [Exercises](https://github.com/daynewright/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
+  - [Challenges] (https://github.com/daynewright/)
 - Rich Browser Applications:
-  - [Exercises](https://github.com/Daynewr/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
-  - [Challenges] (https://github.com/Daynewr/)
+  - [Exercises](https://github.com/daynewright/front-end-milestones/tree/master/2-the-static-web/exercises/submissions)
+  - [Challenges] (https://github.com/daynewright/)
 
 <hr>
 

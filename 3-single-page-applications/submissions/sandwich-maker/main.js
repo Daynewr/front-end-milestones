@@ -17,9 +17,6 @@ var SandwichMaker = (function(maker){
         selectedAry.push(getSelectValues(selects[i]));
     }
 
-    maker.selects = selects;
-    maker.selectedAry = selectedAry;
-
     document.getElementById('sandwich').innerHTML = (
           `<h2>Your ${items(selectedAry[0])} bread sandwich with ${items(selectedAry[1])}
            and ${items(selectedAry[2])} cheese and ${items(selectedAry[3])}
@@ -65,5 +62,3 @@ var SandwichMaker = (function(maker){
   // END output sandwich helper function //
 
 })(SandwichMaker || {})
-
-// calculate({ meats: ['beef'], condiments: ['ketchup'], veggies: ['lettuce']) => 5.69

@@ -23,5 +23,6 @@ var SandwichMaker = (function(maker){
     }
     return costHolder;
   }
+  // END calculate total cost helper function//
 
 })(SandwichMaker || {})

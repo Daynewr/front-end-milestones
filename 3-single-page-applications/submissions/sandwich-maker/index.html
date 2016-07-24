@@ -1,53 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sandwich Maker</title>
-    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <title>Sandwich Maker</title>
+        <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
 
-<div class="form-style-5">
-    <div class="condiments">
-      <label><input type="checkbox" name="condiment" value="Mayo">Mayo</label>
-      <label><input type="checkbox" name="condiment" value="Mustard">Mustard</label>
-      <label><input type="checkbox" name="condiment" value="Pickles">Pickles</label>
-      <label><input type="checkbox" name="condiment" value="Onions">Onions</label>
-      <label><input type="checkbox" name="condiment" value="Lettuce">Lettuce</label>
-    </div>
+        <h1>Build a deli sandwich!</h1>
 
-    <select name="bread" id="bread">
-      <option value="" disabled selected>Select Bread</option>
-      <option value="Rye">Rye</option>
-      <option value="Sourdough">Sourdough</option>
-      <option value="Wheat">Wheat</option>
-      <option value="White">White</option>
-    </select>
+        <div class="flex-container">
+            <div class="flex-select">
+                <div class="col">
+                    <h4>Select Bread:</h4>
+                    <select name="bread" id="Bread" multiple></select>
+                </div>
+                <div class="col">
+                    <h4>Select Condiments:</h4>
+                    <select name="condiments" id="Condiments" multiple></select>
+                </div>
+                <div class="col">
+                    <h4>Select Cheese:</h4>
+                    <select name="cheese" id="Cheese" multiple></select>
+                </div>
+                <div class="col">
+                    <h4>Select Meat:</h4>
+                    <select name="meat" id="Meat" multiple></select>
+                </div>
+            </div>
+        </div>
+        <button id="button">Make Sandwich</button>
+        <hr/>
+        <div id="sandwich"></div>
 
-    <select name="cheese" id="cheese">
-      <option value="" disabled selected>Select Cheese</option>
-      <option value="Cheddar">Cheddar</option>
-      <option value="Swiss">Swiss</option>
-      <option value="Colby">Colby</option>
-      <option value="Havarti">Havarti</option>
-      <option value="Gouda">Gouda</option>
-      <option value="Muenster">Muenster</option>
-    </select>
-
-    <select name="meat" id="meat">
-      <option value="" disabled selected>Select Meat</option>
-      <option value="Roast Beef">Roast Beef</option>
-      <option value="Ham">Ham</option>
-      <option value="Smoked Turkey">Smoked Turkey</option>
-      <option value="Pastrami">Hickory Chicken</option>
-      <option value="Salami">Salami</option>
-    </select>
-
-    <button>Make Sandwich</button>
-  </div>
-
-
-
-    <script src="main.js"></script>
-  </body>
+        <script src="options/meat.js"></script>
+        <script src="options/cheese.js"></script>
+        <script src="options/condiments.js"></script>
+        <script src="options/bread.js"></script>
+        <script src="main.js"></script>
+        <script src="totalCost.js"></script>
+    </body>
 </html>
